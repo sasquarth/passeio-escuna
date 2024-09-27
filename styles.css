@@ -1,3 +1,129 @@
 body {
- margin: 0;   
+ margin: 0;
+ display: flex;
+ justify-content: center; 
+ width: 100%;
+ font-family: sans-serif;
+ background: rgb(2,0,36);
+background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(27,138,125,1) 46%, rgba(123,93,255,1) 100%);
+}
+
+.body-fit {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+
+.body-fit h1 {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.body-fit p {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.body-fit span {
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.image-banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.local-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.local-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    width: 60%;
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #67C15E;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.local-card p {
+    color: white;
+    font-size: 15px;
+}
+
+.local-card h3 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.down-arrow {
+    animation: myAnim 1s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.includes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0px 15px;
+}
+
+ul {
+   
+    color: white;
+}
+
+hr {
+    width: 100%;
 }
